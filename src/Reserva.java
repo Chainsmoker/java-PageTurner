@@ -37,7 +37,7 @@ public class Reserva {
     
     @Override
     public String toString() {
-        return "Reserva{" +
+        return "Reserva Registrada{" +
                 "fecha=" + fecha +
                 ", cliente=" + cliente.getNombre() +
                 ", libro=" + libro.getTitulo() +
