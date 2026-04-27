@@ -51,7 +51,7 @@ public class Venta {
     
     @Override
     public String toString() {
-        return "Venta Registrada {" +
+        return "Venta{" +
                 "fecha=" + fecha +
                 ", cantidad=" + cantidad +
                 ", cliente=" + cliente.getNombre() +
