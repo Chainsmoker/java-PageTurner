@@ -48,19 +48,10 @@ public class Venta {
     public double calcularMonto() {
         return cantidad * libro.getPrecio();
     }
-
-    public boolean procesarVenta() {
-        if (libro.getStock() >= cantidad) {
-            libro.setStock(libro.getStock() - cantidad);
-            return true;
-        } else {
-            return false;
-        }
-    }
     
     @Override
     public String toString() {
-        return "Venta Registrada{" +
+        return "Venta {" +
                 "fecha=" + fecha +
                 ", cantidad=" + cantidad +
                 ", cliente=" + cliente.getNombre() +
